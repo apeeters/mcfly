@@ -43,13 +43,9 @@ When suggesting a command, McFly takes into consideration:
 
 ### Install with Homebrew (on OS X or Linux)
 
-1. Install the tap:
-    ```bash
-    brew tap cantino/mcfly
-    ```
 1. Install `mcfly`:
     ```bash
-    brew install cantino/mcfly/mcfly
+    brew install mcfly
     ```
 1. Add the following to the end of your `~/.bashrc`, `~/.zshrc`, or `~/.config/fish/config.fish` file:
 
@@ -74,10 +70,6 @@ When suggesting a command, McFly takes into consideration:
 1. Remove `mcfly`:
     ```bash
     brew uninstall mcfly
-    ```
-1. Remove the tap:
-    ```bash
-    brew untap cantino/mcfly
     ```
 1. Remove the lines you added to `~/.bashrc` / `~/.zshrc` / `~/.config/fish/config.fish`.
 
